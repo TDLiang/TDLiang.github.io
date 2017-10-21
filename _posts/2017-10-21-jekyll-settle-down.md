@@ -1,5 +1,4 @@
 ﻿---
-layout: post
 title: "jekyll搭建本站的过程"
 ---
 
