@@ -1,6 +1,6 @@
 ﻿---
-layout:post
-title:jekyll搭建本站的过程
+layout: post
+title: "jekyll搭建本站的过程"
 ---
 
 从早上起来就开始着手搭建博客了，一直到晚上，终于基本配置完成了，在此把本站建立的过程记录下来。
