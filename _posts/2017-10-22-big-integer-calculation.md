@@ -170,48 +170,6 @@ int main() {
 	b = "11111111242343534525423553432545111";
 	cout<<a + b;
 }
-		integer.clear();
-		int x, len = (str.length() - 1) / WIDTH + 1; //len为分片后的段数，若直接length() / 8 + 1，如果有length() = 8n，len值会为n + 1，为防止此情况，先减去1
-		for (int i = 0; i < len; i++) {
-			int end = str.length() - i * WIDTH;
-			int start = max(0, end - WIDTH);
-			sscanf(str.substr(start, end - start).c_str(), "%d", &x);
-			integer.push_back(x);
-		}
-		return *this;
-	}
-
-	bigInt operator + (const bigInt& b) const {
-		bigInt c; //返回c = *this + b作为结果
-		c.integer.clear();
-		for (int i = 0, j = 0;; i++) {
-			if (j == 0 && i >= integer.size() && i >= b.integer.size()) break;
-			int x = j;
-			if (i < integer.size()) x += integer[i];
-			if (i < b.integer.size()) x += b.integer[i];
-			c.integer.push_back(x % BASE);
-			j = x / BASE;
-		}
-		return c;
-	}
-};
-
-ostream& operator << (ostream &out, const bigInt& x) {
-		out << x.integer.back();
-		for (int i = x.integer.size() - 2; i >= 0; i--) {
-			char buf[20];
-			sprintf(buf, "%08d", x.integer[i]);
-			for (int j = 0; j < strlen(buf); j++) out << buf[j];
-		}
-	    return out;
-	}
-
-int main() {
-	bigInt a, b;
-	a = "121231231232142314123412341234923999999242342194";
-	b = "11111111242343534525423553432545111";
-	cout<<a + b;
-}
 ```
 
 	Output: 121231231232153425234654684769449423552674887305
