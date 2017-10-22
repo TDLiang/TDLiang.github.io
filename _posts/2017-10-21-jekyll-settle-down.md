@@ -1,6 +1,7 @@
 ---
 layout: post
 title: jekyll搭建本站的过程
+tags: Computer Settings
 ---
 
 从早上起来就开始着手搭建博客了，一直到这个点，终于基本配置完成了，在此把本站建立的过程记录下来。
