@@ -19,10 +19,14 @@ tags: Computer-Settings
 
 ---
 先在此列出参考的博文，并向博主们表示感谢：
+
 http://baixin.io/2016/10/jekyll_tutorials1/
+
 https://ytf513.github.io/2015/08/21/Install-jekyll-Error-Handler.html
 
+
 以及官方文档（用在建立jekyll目录时参考）：
+
 https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
 
 ## 0.准备
