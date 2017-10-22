@@ -80,30 +80,8 @@ $$(1010011010)_{(2)}\to((0010)(1001)(1010))_{(16)}$$
 首先构建一个结构体bigInt，我更喜欢在struct构建数据类型，class构建更实际的类。
 ``` c++
 //代码参考：《算法竞赛入门经典》
-#include <iostream>
-#include <vector>
-using namespace std;
-
-class bigInt {
-public:
-	static const int WIDTH = 8; //将大数分段，int最大为十位，两个八位相加最多为九位数，不会出现问题
-	static const int BASE = 100000000; //通过 num % BASE 来获取后八位数，通过 num /= BASE来去除最后的0
-	vector<int> integer;
-
-	bigInt(long long num = 0) {
-		*this = num;
-	}
-
-	bigInt operator = (long long num) {
-		integer.clear();
-		do {
-			integer.push_back(num % BASE);
-			num /= BASE;
-		} while(num > 0);
-		return *this;
-	}
-
-	bigInt operator = (const string& str) {//代码参考：《算法竞赛入门经典》
+#include <cstdio>
+#include <cstring>
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -170,6 +148,7 @@ int main() {
 	b = "11111111242343534525423553432545111";
 	cout<<a + b;
 }
+
 ```
 
 	Output: 121231231232153425234654684769449423552674887305
