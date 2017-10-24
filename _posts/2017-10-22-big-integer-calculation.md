@@ -133,14 +133,14 @@ public:
 };
 
 ostream& operator << (ostream &out, const bigInt& x) {
-		out << x.integer.back();
-		for (int i = x.integer.size() - 2; i >= 0; i--) {
-			char buf[20];
-			sprintf(buf, "%08d", x.integer[i]);
-			for (int j = 0; j < strlen(buf); j++) out << buf[j];
-		}
-	    return out;
+	out << x.integer.back();
+	for (int i = x.integer.size() - 2; i >= 0; i--) {
+		char buf[20];
+		sprintf(buf, "%08d", x.integer[i]);
+		for (int j = 0; j < strlen(buf); j++) out << buf[j];
 	}
+    return out;
+}
 
 int main() {
 	bigInt a, b;
