@@ -1,4 +1,8 @@
-﻿# 线性空间
+---
+layout: post
+tags: mathematica
+title: 线性空间
+---
 
 最近忙着复习线性代数的期中考试，整整一周都没有写博客了。今天考完，来总结一下最近学到的东西。课本上都有的就不在赘述，在此记录一些独特的视角与思考。
 
@@ -160,12 +164,9 @@
 
 \\(p(f(x))\\)便是\\(f(x)\\)的傅里叶级数。写成三角形式即为：
 
-\begin{equation}
-\begin{aligned}
-f(x)=p(f(x))&=\sum_{i=0}^{\infty}(f(x),\varphi_i(x))\varphi_i(x)\\
-&=\frac{1}{2}a_0+b_1\sin x+a_1\cos x+...+b_n\sin nx+a_n\cos nx+...\\
-\end{aligned}
-\end{equation}
+\\[f(x)=p(f(x))=\sum_{i=0}^{\infty}(f(x),\varphi_i(x))\varphi_i(x)
+=\frac{1}{2}a_0+b_1\sin x+a_1\cos x+...+b_n\sin nx+a_n\cos nx+...\\]
+
 
 其中\\(a_k=\frac{1}{\pi}\int_0^{2\pi}f(x)\cos kxdx,b_k=\frac{1}{\pi}\int_0^{2\pi}f(x)\sin kxdx,k=0,1,2,...\\)
 
