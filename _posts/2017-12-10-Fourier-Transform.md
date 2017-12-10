@@ -1,4 +1,8 @@
-﻿# 各类傅立叶变换
+---
+title: 各类傅立叶变换
+tags: mathematica
+layout: post
+---
 
 //本周组会内容是傅立叶变换，所以复分析第二章的笔记要到下周才能发布。
 
@@ -122,26 +126,26 @@ Z变换：```（此部分内容要求略有复分析基础，其他童鞋可以�
 
 多项式还可用点值表示--在多项式上取\\(N\\)个不同的点\\((x_1,y_1),(x_2,y_2),...,(x_{N-1},y_{N-1})\\)表示。因为由\\(N\\)个点可以确定一个\\(N\\)次多项式，只需要解一个\\(N\\)元一次方程组：
 
-\begin{equation}
+\\[
 \begin{bmatrix}
-\nonumber 1 & x_1 & x_1^2 & \cdots & x_1^{N-1} \\
-\nonumber 1 & x_2 & x_2^2 & \cdots & x_2^{N-1} \\
-\nonumber \vdots & & & & \vdots \\
+\nonumber 1 & x_1 & x_1^2 & \cdots & x_1^{N-1} \\\
+\nonumber 1 & x_2 & x_2^2 & \cdots & x_2^{N-1} \\\
+\nonumber \vdots & & & & \vdots \\\
 \nonumber 1 & x_{N} & x_N^2 & \cdots & x_N^{N-1}
-\end{bmatrix} 
+\end{bmatrix}
 \begin{bmatrix}
-\nonumber a_0 \\
-\nonumber a_1 \\
-\nonumber \vdots \\
+\nonumber a_0 \\\
+\nonumber a_1 \\\
+\nonumber \vdots \\\
 \nonumber a_{N-1}
-\end{bmatrix} = 
+\end{bmatrix} =
 \begin{bmatrix}
-\nonumber y_1 \\
-\nonumber y_2 \\
-\nonumber \vdots \\
+\nonumber y_1 \\\
+\nonumber y_2 \\\
+\nonumber \vdots \\\
 \nonumber y_N
 \end{bmatrix}
-\end{equation}
+\\]
 
 就可以确定\\(a\\)向量。
 
@@ -157,9 +161,9 @@ Z变换：```（此部分内容要求略有复分析基础，其他童鞋可以�
 \begin{equation}
 \nonumber F=
 \begin{bmatrix}
-\nonumber 1 & 1 & 1 & \cdots & 1 \\
-\nonumber 1 & \omega & \omega^2 & \cdots & \omega^{N-1}\\
-\nonumber \vdots & & & & \vdots \\
+\nonumber 1 & 1 & 1 & \cdots & 1 \\\
+\nonumber 1 & \omega & \omega^2 & \cdots & \omega^{N-1}\\\
+\nonumber \vdots & & & & \vdots \\\
 \nonumber 1 & \omega^{N-1} & \omega^{2(N-1)} & \cdots & \omega^{(N-1)^2}
 \end{bmatrix}
 \end{equation}
