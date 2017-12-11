@@ -116,9 +116,9 @@ title: 微分算符在解微分方程中的应用
 
 到这还没有结束，我们对\\(f(x+h)\\)在\\(x\\)处泰勒展开：
 \begin{eqnarray}
-\nonumber f(x+h)&=&f(x)+f'(x)h+\frac{1}{2}f\'\'(x)h^2+...\\
-\nonumber &=&f(x)+Df(x)h+\frac{1}{2}D^2f(x)h^2+...\\
-\nonumber &=&(1+hD+\frac{1}{2}h^2D^2+...)f(x)\\
+\nonumber f(x+h)&=&f(x)+f'(x)h+\frac{1}{2}f\'\'(x)h^2+...\\\
+\nonumber &=&f(x)+Df(x)h+\frac{1}{2}D^2f(x)h^2+...\\\
+\nonumber &=&(1+hD+\frac{1}{2}h^2D^2+...)f(x)\\\
 \nonumber &=&e^{hD}f(x)
 \end{eqnarray}
 

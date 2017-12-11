@@ -189,9 +189,9 @@ title: 复分析学习笔记（一）
 
 下面考虑更一般的复合：
 \begin{eqnarray}
-\nonumber R_b^{\phi}\circ R_a^{\theta}(z)&=&R_b^\phi(e^{i\theta}z+a(1-e^{i\theta}))\\
-\nonumber &=&e^{i\phi}(e^{i\theta}z+a(1-e^{i\theta}))+b(1-e^{i\phi})\\
-\nonumber &=&e^{i(\theta+\phi)}z+ae^{i\phi}(1-e^{i\theta})+b(1-e^{i\phi})\\
+\nonumber R_b^{\phi}\circ R_a^{\theta}(z)&=&R_b^\phi(e^{i\theta}z+a(1-e^{i\theta}))\\\
+\nonumber &=&e^{i\phi}(e^{i\theta}z+a(1-e^{i\theta}))+b(1-e^{i\phi})\\\
+\nonumber &=&e^{i(\theta+\phi)}z+ae^{i\phi}(1-e^{i\theta})+b(1-e^{i\phi})\\\
 \nonumber &=&(T_v\circ R_o^{\theta+\phi})(z), v=ae^{i\phi}(1-e^{i\theta})+b(1-e^{i\phi})
 \end{eqnarray}
 
