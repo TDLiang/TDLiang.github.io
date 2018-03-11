@@ -1,5 +1,8 @@
-# Notes on Complex Analysis (II)
-
+---
+title: Notes on Complex Analysis(II)
+tags: mathematica
+layout: post
+---
 It's been a long while since the update of *Notes on Complex Analysis(I)*. And another long period is predictable for the update of *Following the Traces of Masters* series. I'll get these done step by step. This article is about the chapter 2 of *Visual Complex Analysis*.
 
 
@@ -44,7 +47,7 @@ Another common option is to introduce the concept of *image plane* (or \\(w\\)-p
 
 
 
-There are some other ways to plot a complex function like plotting \\(|f(z)|\\) in a 3-D coordinate. However, it cannot give us all the information of the function.
+There are some other ways to plot a complex function like plotting \\(\lvert f(z)\rvert\\) in a 3-D coordinate. However, it cannot give us all the information of the function.
 
 
 
