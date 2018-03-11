@@ -204,7 +204,7 @@ However, there are something to be noticed. Let's now rewrite the equation:
 \\[
 a^b=e^{b\ Ln(a)}=e^{b(\ln|a|+iArg(a))}=e^{b(\ln|a|+i\arg(a)+2k\pi i)}
 \\]
-Now \\(b(\ln|a|+i\arg(a))\\) is fully determined, so we only need to focus on \\(2bk\pi i\\). We are only discussing the situation when \\(b\in \mathbb{R}\\), since \\(b\in \mathbb{R}\\) is easy to deal with.
+Now \\(b(\ln|a|+i\arg(a))\\) is fully determined, so we only need to focus on \\(2bk\pi i\\). We are only discussing the situation when \\(b\in \mathbb{R}\\), since \\(b\in \mathbb{C}\\) is similar to deal with.
 
 
 
