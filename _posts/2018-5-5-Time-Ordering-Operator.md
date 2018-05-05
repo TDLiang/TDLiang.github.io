@@ -40,7 +40,7 @@ title: 定义法解微分方程与Time-ordering算符
 
 \\[
 \begin{eqnarray}
-\nonumber y_b=\{1&+&[P(x_N)\Delta x+P(x_{N-1})\Delta x+\cdots+P(x_a)\Delta x]\\\
+\nonumber y_b=\\{1&+&[P(x_N)\Delta x+P(x_{N-1})\Delta x+\cdots+P(x_a)\Delta x]\\\
 \nonumber &+&[P(x_N)\Delta x(P(x_{N-1})\Delta x+\cdots+P(x_a)\Delta x)\\\
 \nonumber &+&P(x_{N-1})\Delta x(P(x_{N-2})\Delta x+\cdots+P(x_a)\Delta x)\\\
 \nonumber &+&\cdots\\\
