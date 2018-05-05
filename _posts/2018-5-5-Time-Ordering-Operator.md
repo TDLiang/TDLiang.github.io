@@ -45,7 +45,7 @@ title: 定义法解微分方程与Time-ordering算符
 \nonumber &+&P(x_{N-1})\Delta x(P(x_{N-2})\Delta x+\cdots+P(x_a)\Delta x)\\\
 \nonumber &+&\cdots\\\
 \nonumber &+&P(x_1)\Delta x P(x_a)\Delta x]\\\
-\nonumber &+&\cdots\}y_a
+\nonumber &+&\cdots\\}y_a
 \end{eqnarray}
 \tag{2}
 \\]
