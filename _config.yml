@@ -1,24 +1,24 @@
 # Basic
-title: freezingSummer
+title: TD's blog
 subtitle: Personal Blog
 description: Welcome~
 # 头像里面的标题
-avatarTitle: MD.R
+avatarTitle: TT.L
 # 头像里面的描述
 avatarDesc: Mathematics
-url: "http://freezingSummer.github.io"
+url: "http://TDLiang.github.io"
 
 # Comment
 comment:
     #disqus: freezingSummer
-    uyan: 2147096 # 有言id,登录有言官网申请
+    #uyan: 2147096 # 有言id,登录有言官网申请
 
 # Social
 social:
     #weibo: 5366874726 
-    github: freezingSummer
+    github: TDLiang
     # twitter: 
-    mail: 38682200@qq.com
+    mail: 995830982@qq.com
     
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
