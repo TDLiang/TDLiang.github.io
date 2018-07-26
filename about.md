@@ -1,21 +1,21 @@
 ---
 layout: page
-title: 关于我 
+title: About me 
 ---
 
-博主：任明德
+Blogger： Liang TongTong
 
-年龄：18
+Birth year： 1999
 
-高中：合肥市第八中学（2014~2017）
+Highschool： Shenzhen middle schol（2014~2017）
 
-大学：南方科技大学（2017～Now）
-
-兴趣：数学、物理、人工智能、网络安全、量子计算...
+University： Southern University of Science and Technology of China （2017～Now）
 
 
-邮箱：
 
-11710919@mail.sustc.edu.cn(学术交流)
 
-mingde_r@163.com(日常交往)
+E-mail：
+
+11711505@mail.sustc.edu.cn (for academics)
+
+995830982@qq.com (causal)
