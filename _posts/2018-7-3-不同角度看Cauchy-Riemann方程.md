@@ -96,9 +96,10 @@ $$
 
 ​                                                                    
 $$
-\frac{\partial u}{\partial x}=\frac{\partial v}{\partial y}\\
-\frac{\partial u}{\partial y}=-\frac{\partial v}{\partial x}
+\frac{\partial u}{\partial x}=\frac{\partial v}{\partial y}\\\frac{\partial u}{\partial y}=-\frac{\partial v}{\partial x}
 $$
+
+
 这就是著名的**Cauchy-Riemann 方程组**。自然地，我们试图证明结论:
 
 #### 定理1： 
