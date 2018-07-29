@@ -96,7 +96,7 @@ f'(z_0)=\lim_{h_2\rightarrow0}\frac{f(x_0+iy_0+ih_2)-f(x_0+iy_0)}{ih_2}=\frac{1}
 
 ​                                                                    
 \\[
-\frac{\partial u}{\partial x}=\frac{\partial v}{\partial y}\\\\frac{\partial u}{\partial y}=-\frac{\partial v}{\partial x}
+\frac{\partial u}{\partial x}=\frac{\partial v}{\partial y}\\ \frac{\partial u}{\partial y}=-\frac{\partial v}{\partial x}
 \\]
 
 
@@ -109,8 +109,10 @@ f'(z_0)=\lim_{h_2\rightarrow0}\frac{f(x_0+iy_0+ih_2)-f(x_0+iy_0)}{ih_2}=\frac{1}
 **证明:**我们直接把微分写出来
 
 \\[
-u(x+h_1,y+h_2)-u(x,y)=\frac{\partial u}{\partial x}h_1+\frac{\partial u}{\partial y}h_2+o(|h|)\\\
+u(x+h_1,y+h_2)-u(x,y)=\frac{\partial u}{\partial x}h_1+\frac{\partial u}{\partial y}h_2+o(|h|)
+\\]
 
+\\[
 v(x+h_1,y+h_2)-v(x,y)=\frac{\partial v}{\partial x}h_1+\frac{\partial v}{\partial y}h_2+o(|h|)
 \\]
 下面我们把这两个式子合并起来（第一个等式加上第二个等式乘以虚数\\(i\\)），并且代入Cauchy-Riemann 方程组
@@ -131,7 +133,7 @@ f'(z_0)=2\frac{\partial u}{\partial z}(x_0,y_0)=\frac{\partial f}{\partial z}(x_
 
 ## 从几何与变换看复数与复变函数
 
- 	我们把复数写成\\(z=\rho e^{i\theta}\\)，那么复数之间的乘法可以看成：模长相乘，辐角相加。也就是说，一个复数可以表示复平面的一个变换，而且最关键的是**这个变换是线性的**！我们在学习线性代数的时候知道线性变换可以通过基变换来表示，进而写成矩阵的形式。那么现在一个很自然的想法就是找到一个\\(2\times2\\)矩阵表示\\(\mathbb{R}^2\\)的变换对应复数在复平面这种变换。
+  我们把复数写成\\(z=\rho e^{i\theta}\\)，那么复数之间的乘法可以看成：模长相乘，辐角相加。也就是说，一个复数可以表示复平面的一个变换，而且最关键的是**这个变换是线性的**！我们在学习线性代数的时候知道线性变换可以通过基变换来表示，进而写成矩阵的形式。那么现在一个很自然的想法就是找到一个\\(2\times2\\)矩阵表示\\(\mathbb{R}^2\\)的变换对应复数在复平面这种变换。
 
 ​	模长相乘，辐角相加，用变换表示就是伸缩旋转。那么用矩阵写出来就是                                              
 
@@ -153,7 +155,7 @@ F_M=\left\lbrace\begin{pmatrix} a&-b\\\b&a \end{pmatrix}|a,b \in\mathbb{R}\right
 
 ​								
 \\[
-J_{F(x,y)}=\begin{pmatrix}\frac{\partial u}{\partial x}&\frac{\partial u}{\partial y}\\\\frac{\partial v}{\partial x}&\frac{\partial v}{\partial y}\end{pmatrix}\in F_M
+J_{F(x,y)}=\begin{pmatrix}\frac{\partial u}{\partial x}&\frac{\partial u}{\partial y}\\ \frac{\partial v}{\partial x}&\frac{\partial v}{\partial y}\end{pmatrix}\in F_M
 \\]
 根据这个我们可以导出更加有意思的结论，既然在局部近似的变换中，向量变换的角度都相同，那么我们就说一个全纯映射是**保角**的。我们将这个命题特殊化（但不失一般性）：
 
@@ -165,14 +167,17 @@ J_{F(x,y)}=\begin{pmatrix}\frac{\partial u}{\partial x}&\frac{\partial u}{\parti
 
 \\[
 u(x,y)=u(x_0,y_0)=u_0
-
-\\\v(x,y)=v(x_0,y_0)=v_0
+\\]
+\\[
+v(x,y)=v(x_0,y_0)=v_0
 \\]
 运用隐函数定理求导
 
 \\[
-\frac{\partial u}{\partial x}+\frac{\partial u}{\partial y}\frac{dy_1}{dx}=0\\\
+\frac{\partial u}{\partial x}+\frac{\partial u}{\partial y}\frac{dy_1}{dx}=0
+\\]
 
+\\[
 \frac{\partial v}{\partial x}+\frac{\partial v}{\partial y}\frac{dy_2}{dx}=0
 \\]
 我们知道，若是两条线垂直，那么它们的斜率的积为-1，在这里排除掉所有偏导数都等于0的情况，这个情况是trivial的。假设都不为零我们有                       
