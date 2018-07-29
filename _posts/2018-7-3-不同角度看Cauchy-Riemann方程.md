@@ -155,7 +155,7 @@ F_M=\left\lbrace\begin{pmatrix} a&-b\\\b&a \end{pmatrix}|a,b \in\mathbb{R}\right
 
 ​								
 \\[
-J_{F(x,y)}=\begin{pmatrix}\frac{\partial u}{\partial x}&\frac{\partial u}{\partial y}\\ \frac{\partial v}{\partial x}&\frac{\partial v}{\partial y}\end{pmatrix}\in F_M
+J_{F(x,y)}=\begin{pmatrix}\frac{\partial u}{\partial x}&\frac{\partial u}{\partial y}\\\ \frac{\partial v}{\partial x}&\frac{\partial v}{\partial y}\end{pmatrix}\in F_M
 \\]
 根据这个我们可以导出更加有意思的结论，既然在局部近似的变换中，向量变换的角度都相同，那么我们就说一个全纯映射是**保角**的。我们将这个命题特殊化（但不失一般性）：
 
