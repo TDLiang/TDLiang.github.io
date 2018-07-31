@@ -96,7 +96,7 @@ f'(z_0)=\lim_{h_2\rightarrow0}\frac{f(x_0+iy_0+ih_2)-f(x_0+iy_0)}{ih_2}=\frac{1}
 
 ​                                                                    
 \\[
-\frac{\partial u}{\partial x}=\frac{\partial v}{\partial y}\\ \frac{\partial u}{\partial y}=-\frac{\partial v}{\partial x}
+\frac{\partial u}{\partial x}=\frac{\partial v}{\partial y}\\\ \frac{\partial u}{\partial y}=-\frac{\partial v}{\partial x}
 \\]
 
 
